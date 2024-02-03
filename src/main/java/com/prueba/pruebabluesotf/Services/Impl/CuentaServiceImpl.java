@@ -21,6 +21,6 @@ public class CuentaServiceImpl implements CuentaService {
 
     @Override
     public Optional<Cuenta> buscarCuenta(String numeroCuenta) {
-        return cuentaRepository.findByCuenta(numeroCuenta);
+        return cuentaRepository.findCuentaByNumeroCuenta(numeroCuenta);
     }
 }

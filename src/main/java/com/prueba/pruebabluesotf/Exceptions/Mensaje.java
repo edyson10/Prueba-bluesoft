@@ -1,4 +1,4 @@
-package com.prueba.pruebabluesotf.DTO;
+package com.prueba.pruebabluesotf.Exceptions;
 
 public class Mensaje {
 	

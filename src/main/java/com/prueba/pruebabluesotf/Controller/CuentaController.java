@@ -1,6 +1,6 @@
 package com.prueba.pruebabluesotf.Controller;
 
-import com.prueba.pruebabluesotf.DTO.Mensaje;
+import com.prueba.pruebabluesotf.Exceptions.Mensaje;
 import com.prueba.pruebabluesotf.Entity.Cuenta;
 import com.prueba.pruebabluesotf.Services.CuentaService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/v1/cuenta/")
+@RequestMapping("/api/v1/cuenta")
 public class CuentaController {
 
     @Autowired

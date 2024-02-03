@@ -18,7 +18,7 @@ public class Transaccion implements Serializable {
     private int id;
 
     @Column(name = "valor_transaccion")
-    private float valorTransaccion;
+    private double valorTransaccion;
 
     @Column(name = "tipo_transaccion")
     private String tipoTransaccion;

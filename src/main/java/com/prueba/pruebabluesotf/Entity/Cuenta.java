@@ -26,7 +26,7 @@ public class Cuenta implements Serializable {
     @Column(name = "cliente")
     private int cliente;
 
-    @OneToMany(mappedBy = "id")
-    private List<Transaccion> transacciones;
+    @Column(name = "saldo")
+    private double saldo;
 
 }
